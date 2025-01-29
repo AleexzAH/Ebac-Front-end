@@ -6,9 +6,7 @@
 - Criador: Alexander Henrique dos Santos Arruda
 - Email: henriquealexander60@gmail.com
 
-### EM BREVE
-- A partir daqui haverá informações e links de exercícios em breve.
-  
+### LISTA DE EXERCÍCIOS
 #### HTML:
 - Formulário simples com HTML | Acesse aqui: https://github.com/AleexzAH/Ebac-Front-end/blob/_html/index.html
   
