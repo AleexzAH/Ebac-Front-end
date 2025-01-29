@@ -5,6 +5,7 @@
 ## CREATOR
 - Criador: Alexander Henrique dos Santos Arruda
 - Email: henriquealexander60@gmail.com
+- Linkedln: www.linkedin.com/in/alexander-henrique-807319199
 
 ### LISTA DE EXERCÍCIOS
 #### HTML:
