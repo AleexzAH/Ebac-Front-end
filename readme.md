@@ -8,3 +8,7 @@
 
 ### EM BREVE
 - A partir daqui haverá informações e links de exercícios em breve.
+  
+#### HTML:
+- Formulário simples com HTML | Acesse aqui: https://github.com/AleexzAH/Ebac-Front-end/blob/_html/index.html
+  
