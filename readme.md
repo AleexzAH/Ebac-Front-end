@@ -14,9 +14,9 @@
 #### CSS:
 - Página de notícias estilizada com CSS | Acesse aqui: https://github.com/AleexzAH/Ebac-Front-end/tree/_css
   ##### RESULTADO:
-  ![image](https://github.com/user-attachments/assets/c66e67ea-b345-49b7-80bb-def2eb6917ab)
-  ![image](https://github.com/user-attachments/assets/e76deee2-674b-45f7-9e8d-36a1000e53d5)
-  ![image](https://github.com/user-attachments/assets/3bce0ea1-100f-4efc-9bf1-a77db38d3618)
+  ![image](https://github.com/user-attachments/assets/45415878-56f4-4177-968d-757af349a33e)
+  ![image](https://github.com/user-attachments/assets/b2a04e92-8be6-4f23-8174-22404150c1ad)
+
 
 
 
