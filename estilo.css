@@ -51,6 +51,19 @@ header a {
     text-decoration: none;
 }
 
+header .home {
+    right: 5%;
+    width: auto;
+    height: 35px;
+    position: absolute;
+    top: 45px;
+}
+header .home:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+
 /*CONFIGURANDO A SEPARAÇÃO DE SESSÃO*/
 .Esportes {
     width: 100%;
@@ -74,7 +87,17 @@ header a {
 }
 
 /*CONFIGURANDO AS NOTICIAS DA SESSÃO ESPORTES*/
-.contEsport {
+.fundo1 {
+    background-color: rgb(236, 209, 216);
+}
+.contEsport1 {
+    display: flex;
+    justify-content: center;
+    max-width: 1500px;
+    margin: 0 auto;
+    gap: 100px;
+}
+.contEsport2 {
     display: flex;
     justify-content: center;
     max-width: 1500px;
@@ -83,12 +106,16 @@ header a {
 }
 .noticia {
     background: white;
-    padding: 15px;
+    padding: 25px;
     border-radius: 8px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     width: 30%;
-    margin: auto 10px;
+    margin: auto 15px;
+}
+
+.contEsport2 .noticia {
+    margin-top: 55px;
 }
 .noticia:hover {
     transform: scale(1.05);
@@ -127,12 +154,22 @@ header a {
         2px -2px 0 #000, 
        -2px  2px 0 #000,
         2px 0 0 #000;
-    margin: 20px auto;
+    margin: 30px auto;
     opacity: 80%;
 }
 
 /*CONFIGURANDO CONTEÚDO DA SESSÃO DE NÓTICIAS DE TECNOLOGIA*/
-.contTec {
+.fundo2 {
+    background-color: rgb(209, 209, 236);
+}
+.contTec1 {
+    display: flex;
+    justify-content: center;
+    max-width: 1500px;
+    margin: 0 auto;
+    gap: 100px;
+}
+.contTec2 {
     display: flex;
     justify-content: center;
     max-width: 1500px;
@@ -148,6 +185,10 @@ header a {
     width: 30%;
     margin: auto 10px;
 }
+.contTec2 .noticia {
+    margin-top: 55px;
+}
+
 .noticia img {
     width: 100%;
     height: auto;
@@ -162,6 +203,74 @@ header a {
     color: #555;
 }
 
+/*CONFIGURANDO A SEPARAÇÃO DE SESSÃO*/
+.Natureza {
+    width: 100%;
+    height: 400px;
+    background: url('imagens/backtree.jpeg') no-repeat center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 82px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 
+        2px 2px 0 #000, 
+       -2px -2px 0 #000, 
+        2px -2px 0 #000, 
+       -2px  2px 0 #000,
+        2px 0 0 #000;
+    margin: 20px auto;
+    opacity: 80%;
+}
+
+/*CONFIGURANDO CONTEÚDO DA SESSÃO DE NÓTICIAS DE TECNOLOGIA*/
+.contNat {
+    display: flex;
+    justify-content: center;
+    max-width: 1500px;
+    margin: 0 auto;
+    gap: 100px;
+}
+
+.fundo3 {
+    background-color: rgb(209, 236, 227);
+}
+
+/*CONFIGURANDO A SEPARAÇÃO DE SESSÃO*/
+.Economia {
+    width: 100%;
+    height: 400px;
+    background: url('imagens/backfor.jpeg') no-repeat center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 82px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 
+        2px 2px 0 #000, 
+       -2px -2px 0 #000, 
+        2px -2px 0 #000, 
+       -2px  2px 0 #000,
+        2px 0 0 #000;
+    margin: 20px auto;
+    opacity: 80%;
+}
+
+/*CONFIGURANDO CONTEÚDO DA SESSÃO DE NÓTICIAS DE TECNOLOGIA*/
+.contEco1 {
+    display: flex;
+    justify-content: center;
+    max-width: 1500px;
+    margin: 0 auto;
+    gap: 100px;
+}
+.fundo4 {
+    background-color: rgb(229, 236, 209);
+}
 
 /*CONFIGURANDO O RODAPÉ*/
 .rodape {
