@@ -13,8 +13,6 @@
 
 #### CSS:
 - Página de notícias estilizada com CSS | Acesse aqui: https://github.com/AleexzAH/Ebac-Front-end/tree/_css
-  - Para testar o código criado faça download do arquivo compactado "NM_noticias_mundias", descompacte em sua máquina
-    e execute o arquivo "index.html"
   ##### RESULTADO:
   ![image](https://github.com/user-attachments/assets/eee19d38-4a39-48e5-8209-278d094a9067)
   ![image](https://github.com/user-attachments/assets/abdc4e29-1f31-4f98-8525-47e65bccaf68)
