@@ -13,9 +13,9 @@
 
 #### CSS:
 - Página de notícias estilizada com CSS | Acesse aqui: https://github.com/AleexzAH/Ebac-Front-end/tree/_css
-  ##### RESULTADO:
-  ![image](https://github.com/user-attachments/assets/45415878-56f4-4177-968d-757af349a33e)
-  ![image](https://github.com/user-attachments/assets/b2a04e92-8be6-4f23-8174-22404150c1ad)
+
+#### JAVASCRIPT INTEGRADO AO HTML
+- Página de um banco na área de investimentos com mecânicas em JavaScript | Acesse aqui: https://github.com/AleexzAH/Ebac-Front-end/tree/exercicio_html_js
 
 
 
