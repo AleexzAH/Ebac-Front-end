@@ -1,0 +1,173 @@
+
+/* ADICIONANDO NOVAS FONTES */
+@font-face {
+    font-family: 'Corpo';
+    src: url("fonts/BARKENTINA.OTF");
+}
+
+@font-face {
+    font-family: "Til";
+    src: url('fonts/Bebas_Neue/BebasNeue-Regular.ttf');
+}
+
+/*RECONFIGURANDO OS ATRIBUTOS DE TODOS OS ELEMENTOS DA PÁGINA*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    /*background-color: #D8F2DC;*/
+    color: #333;
+}
+
+/*ESTILIZANDO O CABEÇALHO*/
+header {
+    background-color: #093C2D;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-grow: 1;
+}
+
+nav a, .home-link {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    transition: transform 0.3s, color 0.3s;
+}
+
+nav a:hover, .home-link:hover{
+    transform: scale(1.2);
+    color: gold;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* ESTILO DO FORMULÁRIO */
+.conteudo-p {
+    margin: 30px 0;
+}
+.form {
+    max-width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 5px;
+}
+.form h1 {
+    text-align: center;
+    padding-bottom: 25px;
+    font-size: 65px;
+    font-family: 'Til', sans-serif;
+    color: #3B6654;
+}
+.items-form {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 50%;
+    font-size: 20px;
+    color: #3B6654;
+}
+button{
+    margin-top: 20px;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Corpo', sans-serif;
+    color: black;
+    display: block;
+    background-color: #8c9c99;
+    font-size: 20px;
+    border: 1px solid #8c9c99;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+button:hover {
+    background-color: #D8F2DC;
+    transform: scale(1.1);
+}
+input {
+    margin-bottom: 20px;
+    padding: 5px;
+    
+}
+label {
+    font-family: 'Corpo', sans-serif;
+}
+.erro {
+    border: 2px solid red;
+    color: red;
+    font-size: 14px;
+}
+
+/*ESTILIZANDO A SEÇÃO DE RESULTADO*/
+.res {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    visibility: hidden;
+}
+
+.tabela-investimentos {
+    visibility: hidden;
+    margin: 30px auto;
+    width: auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 5px;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+
+
+
+/* RODAPÉ */
+
+footer {
+    background-color: #093C2D;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    height: auto;
+}
+
