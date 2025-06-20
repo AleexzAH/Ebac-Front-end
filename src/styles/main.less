@@ -1,0 +1,147 @@
+@import 'variaveis.less';
+@import 'mapas.less';
+
+@brakepointMobile: ~"(max-width: 767px)";
+@brakepointTablet: ~"(min-width:768px) and (max-width: 1023px)";
+
+body {
+  font-family: 'Roboto', sans-serif;
+    background: #colors[backgroundColor];
+  color: #333;
+}
+
+.header {
+  background-color: #fff;
+  padding: 20px 0;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 70px; 
+}
+
+
+  .menu {
+    display: flex;
+    gap: 24px;
+
+    li {
+      list-style: none;
+
+      a {
+        text-decoration: none;
+        color: #colors[buttonColor];
+        font-weight: bold;
+
+        &:hover {
+          color: #c2185b;
+        }
+      }
+    }
+  }
+}
+
+
+.hero-banner {
+  text-align: center;
+  padding: 60px 20px;
+    background: linear-gradient(to right, #fce4ec, #f8bbd0);
+
+
+
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 12px;
+  }
+
+  p {
+    font-size: 1.2rem;
+    color: colors;
+  }
+}
+
+.products-section {
+  padding: 40px 20px;
+
+  .section-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 40px;
+  }
+
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    list-style: none;
+
+  
+
+    .product-item {
+      background: #fff;
+      border-radius: 12px;
+      padding: 20px;
+      width: 280px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+      text-align: center;
+      list-style: none;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        cursor: pointer;
+
+      img {
+        max-width: 100%;
+        margin-bottom: 12px;
+      }
+
+      h4 {
+        font-size: 1.2rem;
+        color: #colors[buttonColor];
+        margin-bottom: 8px;
+      }
+
+      p {
+        font-size: 0.9rem;
+        margin-bottom: 12px;
+      }
+
+      .product-button {
+        display: inline-block;
+        background-color: #colors[buttonColor];
+        color: #fff;
+        padding: 10px 16px;
+        border-radius: 20px;
+        text-decoration: none;
+        transition: background 0.3s;
+
+        &:hover {
+          background-color: #c2185b;
+          transform: scale(1.05);
+          box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+          z-index: 10;
+        }
+      }
+    }
+  }
+}
+
+.header-content, ul{
+
+
+  @media @brakepointMobile {
+    max-width: 70%;
+  }
+
+  @media @brakepointTablet {
+    max-width: 80%;
+  }
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: #colors[corHeader];
+  color: #colors[textColor];
+}
