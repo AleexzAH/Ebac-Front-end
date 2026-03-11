@@ -1,11 +1,11 @@
-function multiplicacao(a: number, b: number){
+function multiplicacao(a: number, b: number): string{
     const resultado: number = a * b;
-    console.log(`A multiplicação de ${a} com ${b} é ${resultado}`);
+    return `A multiplicação de ${a} com ${b} é ${resultado}`;
 }
 
-function saudacao(nome: string){
-    console.log(`Olá ${nome}. Seja bem vindo`);
+function saudacao(nome: string): string{
+    return `Olá ${nome}. Seja bem vindo`
 }
 
-multiplicacao(5, 54);
-saudacao('Alexander');
+console.log(multiplicacao(5, 54));
+console.log(saudacao('Alexander'));

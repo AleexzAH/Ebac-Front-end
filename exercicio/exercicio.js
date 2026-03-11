@@ -2,11 +2,11 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 function multiplicacao(a, b) {
     const resultado = a * b;
-    console.log(`A multiplicação de ${a} com ${b} é ${resultado}`);
+    return `A multiplicação de ${a} com ${b} é ${resultado}`;
 }
 function saudacao(nome) {
-    console.log(`Olá ${nome}. Seja bem vindo`);
+    return `Olá ${nome}. Seja bem vindo`;
 }
-multiplicacao(5, 54);
-saudacao('Alexander');
+console.log(multiplicacao(5, 54));
+console.log(saudacao('Alexander'));
 //# sourceMappingURL=exercicio.js.map
